@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         // This view contains the text to share
         val editText = findViewById<EditText>(R.id.editTextText)
 
-        // When the user clicks this button, share the text
+        // When the user clicks this button, share the text if not empty
         findViewById<ImageButton>(R.id.shareImageButton).setOnClickListener {
 
         }
